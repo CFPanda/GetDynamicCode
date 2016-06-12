@@ -14,6 +14,7 @@
 		84BA39761D00077A003119AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA39741D00077A003119AD /* LaunchScreen.storyboard */; };
 		84BA39811D00077A003119AD /* GetDynamicCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA39801D00077A003119AD /* GetDynamicCodeTests.swift */; };
 		84BA398C1D00077A003119AD /* GetDynamicCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA398B1D00077A003119AD /* GetDynamicCodeUITests.swift */; };
+		84BA399A1D002704003119AD /* AuthCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA39991D002704003119AD /* AuthCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84BA39871D00077A003119AD /* GetDynamicCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetDynamicCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA398B1D00077A003119AD /* GetDynamicCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDynamicCodeUITests.swift; sourceTree = "<group>"; };
 		84BA398D1D00077A003119AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA39991D002704003119AD /* AuthCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				84BA396B1D00077A003119AD /* AppDelegate.swift */,
 				84BA396D1D00077A003119AD /* ViewController.swift */,
+				84BA39991D002704003119AD /* AuthCodeView.swift */,
 				84BA396F1D00077A003119AD /* Main.storyboard */,
 				84BA39721D00077A003119AD /* Assets.xcassets */,
 				84BA39741D00077A003119AD /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				84BA396E1D00077A003119AD /* ViewController.swift in Sources */,
 				84BA396C1D00077A003119AD /* AppDelegate.swift in Sources */,
+				84BA399A1D002704003119AD /* AuthCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				84BA39921D00077A003119AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BA39931D00077A003119AD /* Build configuration list for PBXNativeTarget "GetDynamicCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				84BA39951D00077A003119AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BA39961D00077A003119AD /* Build configuration list for PBXNativeTarget "GetDynamicCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				84BA39981D00077A003119AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,17 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var dataArray:NSMutableArray?
+    var authCodeStr:NSMutableString?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let codeView:AuthCodeView = AuthCodeView(frame:CGRectMake(100,100,100,30))
+        self.view.addSubview(codeView)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
+    
 
 }
 
